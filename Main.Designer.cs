@@ -32,17 +32,18 @@
             mapCreatorMain_menuStrip = new MenuStrip();
             mapCreatorMain_menuStrip_menuStripButton_setupPaintSoftware = new ToolStripMenuItem();
             mapCreatorMain_menuStrip_menuStripButton_cartographytutorials = new ToolStripMenuItem();
+            mapCreatorMain_menuStrip_menuStripButton_runUOBasedScripts = new ToolStripMenuItem();
             mapCreatorMain_menuStrip_menuStripButton_credits = new ToolStripMenuItem();
             mapCreatorMain_statusStrip = new StatusStrip();
             mapCreatorMain_statusStrip_softwareVersion = new ToolStripStatusLabel();
             mapCreatorMain_splitContainer = new SplitContainer();
-            mapCreatorMain_splitContainerPanel1_button5_plugins = new Button();
+            mapCreatorMain_splitContainerPanel1_button_plugins = new Button();
             mapCreatorMain_splitContainerPanel1_pictureBox_dividerB = new PictureBox();
             mapCreatorMain_splitContainerPanel1_pictureBox_dividerT = new PictureBox();
-            mapCreatorMain_splitContainerPanel1_button4_compileYourNewMap = new Button();
-            mapCreatorMain_splitContainerPanel1_button3_encodeAltitudeBitmap = new Button();
-            mapCreatorMain_splitContainerPanel1_button2_createMapTemplate = new Button();
-            mapCreatorMain_splitContainerPanel1_button1_configureColorTables = new Button();
+            mapCreatorMain_splitContainerPanel1_button_compileYourNewMap = new Button();
+            mapCreatorMain_splitContainerPanel1_button_encodeAltitudeBitmap = new Button();
+            mapCreatorMain_splitContainerPanel1_button_createMapTemplate = new Button();
+            mapCreatorMain_splitContainerPanel1_button_configureColorTables = new Button();
             mapCreatorMain_menuStrip.SuspendLayout();
             mapCreatorMain_statusStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)mapCreatorMain_splitContainer).BeginInit();
@@ -56,10 +57,10 @@
             // 
             mapCreatorMain_menuStrip.Font = new Font("Segoe UI", 11F);
             mapCreatorMain_menuStrip.ImageScalingSize = new Size(24, 24);
-            mapCreatorMain_menuStrip.Items.AddRange(new ToolStripItem[] { mapCreatorMain_menuStrip_menuStripButton_setupPaintSoftware, mapCreatorMain_menuStrip_menuStripButton_cartographytutorials, mapCreatorMain_menuStrip_menuStripButton_credits });
+            mapCreatorMain_menuStrip.Items.AddRange(new ToolStripItem[] { mapCreatorMain_menuStrip_menuStripButton_setupPaintSoftware, mapCreatorMain_menuStrip_menuStripButton_cartographytutorials, mapCreatorMain_menuStrip_menuStripButton_runUOBasedScripts, mapCreatorMain_menuStrip_menuStripButton_credits });
             mapCreatorMain_menuStrip.Location = new Point(0, 0);
             mapCreatorMain_menuStrip.Name = "mapCreatorMain_menuStrip";
-            mapCreatorMain_menuStrip.Size = new Size(1087, 28);
+            mapCreatorMain_menuStrip.Size = new Size(1087, 32);
             mapCreatorMain_menuStrip.TabIndex = 0;
             mapCreatorMain_menuStrip.Text = "menuStrip1";
             // 
@@ -67,21 +68,28 @@
             // 
             mapCreatorMain_menuStrip_menuStripButton_setupPaintSoftware.Margin = new Padding(0, 0, 10, 0);
             mapCreatorMain_menuStrip_menuStripButton_setupPaintSoftware.Name = "mapCreatorMain_menuStrip_menuStripButton_setupPaintSoftware";
-            mapCreatorMain_menuStrip_menuStripButton_setupPaintSoftware.Size = new Size(158, 24);
+            mapCreatorMain_menuStrip_menuStripButton_setupPaintSoftware.Size = new Size(158, 28);
             mapCreatorMain_menuStrip_menuStripButton_setupPaintSoftware.Text = "Setup Paint Software";
             // 
             // mapCreatorMain_menuStrip_menuStripButton_cartographytutorials
             // 
             mapCreatorMain_menuStrip_menuStripButton_cartographytutorials.Margin = new Padding(0, 0, 10, 0);
             mapCreatorMain_menuStrip_menuStripButton_cartographytutorials.Name = "mapCreatorMain_menuStrip_menuStripButton_cartographytutorials";
-            mapCreatorMain_menuStrip_menuStripButton_cartographytutorials.Size = new Size(142, 24);
+            mapCreatorMain_menuStrip_menuStripButton_cartographytutorials.Size = new Size(142, 28);
             mapCreatorMain_menuStrip_menuStripButton_cartographytutorials.Text = "Cartography Tools";
+            // 
+            // mapCreatorMain_menuStrip_menuStripButton_runUOBasedScripts
+            // 
+            mapCreatorMain_menuStrip_menuStripButton_runUOBasedScripts.Name = "mapCreatorMain_menuStrip_menuStripButton_runUOBasedScripts";
+            mapCreatorMain_menuStrip_menuStripButton_runUOBasedScripts.Size = new Size(161, 28);
+            mapCreatorMain_menuStrip_menuStripButton_runUOBasedScripts.Text = "RunUO-Based Scripts";
             // 
             // mapCreatorMain_menuStrip_menuStripButton_credits
             // 
+            mapCreatorMain_menuStrip_menuStripButton_credits.Image = (Image)resources.GetObject("mapCreatorMain_menuStrip_menuStripButton_credits.Image");
+            mapCreatorMain_menuStrip_menuStripButton_credits.Margin = new Padding(535, 0, 0, 0);
             mapCreatorMain_menuStrip_menuStripButton_credits.Name = "mapCreatorMain_menuStrip_menuStripButton_credits";
-            mapCreatorMain_menuStrip_menuStripButton_credits.Size = new Size(67, 24);
-            mapCreatorMain_menuStrip_menuStripButton_credits.Text = "Credits";
+            mapCreatorMain_menuStrip_menuStripButton_credits.Size = new Size(36, 28);
             // 
             // mapCreatorMain_statusStrip
             // 
@@ -104,38 +112,38 @@
             // mapCreatorMain_splitContainer
             // 
             mapCreatorMain_splitContainer.Dock = DockStyle.Fill;
-            mapCreatorMain_splitContainer.Location = new Point(0, 28);
+            mapCreatorMain_splitContainer.Location = new Point(0, 32);
             mapCreatorMain_splitContainer.Name = "mapCreatorMain_splitContainer";
             // 
             // mapCreatorMain_splitContainer.Panel1
             // 
             mapCreatorMain_splitContainer.Panel1.BackColor = Color.Black;
-            mapCreatorMain_splitContainer.Panel1.Controls.Add(mapCreatorMain_splitContainerPanel1_button5_plugins);
+            mapCreatorMain_splitContainer.Panel1.Controls.Add(mapCreatorMain_splitContainerPanel1_button_plugins);
             mapCreatorMain_splitContainer.Panel1.Controls.Add(mapCreatorMain_splitContainerPanel1_pictureBox_dividerB);
             mapCreatorMain_splitContainer.Panel1.Controls.Add(mapCreatorMain_splitContainerPanel1_pictureBox_dividerT);
-            mapCreatorMain_splitContainer.Panel1.Controls.Add(mapCreatorMain_splitContainerPanel1_button4_compileYourNewMap);
-            mapCreatorMain_splitContainer.Panel1.Controls.Add(mapCreatorMain_splitContainerPanel1_button3_encodeAltitudeBitmap);
-            mapCreatorMain_splitContainer.Panel1.Controls.Add(mapCreatorMain_splitContainerPanel1_button2_createMapTemplate);
-            mapCreatorMain_splitContainer.Panel1.Controls.Add(mapCreatorMain_splitContainerPanel1_button1_configureColorTables);
+            mapCreatorMain_splitContainer.Panel1.Controls.Add(mapCreatorMain_splitContainerPanel1_button_compileYourNewMap);
+            mapCreatorMain_splitContainer.Panel1.Controls.Add(mapCreatorMain_splitContainerPanel1_button_encodeAltitudeBitmap);
+            mapCreatorMain_splitContainer.Panel1.Controls.Add(mapCreatorMain_splitContainerPanel1_button_createMapTemplate);
+            mapCreatorMain_splitContainer.Panel1.Controls.Add(mapCreatorMain_splitContainerPanel1_button_configureColorTables);
             // 
             // mapCreatorMain_splitContainer.Panel2
             // 
             mapCreatorMain_splitContainer.Panel2.BackColor = Color.Black;
             mapCreatorMain_splitContainer.Panel2.BackgroundImage = (Image)resources.GetObject("mapCreatorMain_splitContainer.Panel2.BackgroundImage");
             mapCreatorMain_splitContainer.Panel2.BackgroundImageLayout = ImageLayout.Stretch;
-            mapCreatorMain_splitContainer.Size = new Size(1087, 501);
+            mapCreatorMain_splitContainer.Size = new Size(1087, 497);
             mapCreatorMain_splitContainer.SplitterDistance = 231;
             mapCreatorMain_splitContainer.TabIndex = 2;
             // 
-            // mapCreatorMain_splitContainerPanel1_button5_plugins
+            // mapCreatorMain_splitContainerPanel1_button_plugins
             // 
-            mapCreatorMain_splitContainerPanel1_button5_plugins.BackgroundImage = (Image)resources.GetObject("mapCreatorMain_splitContainerPanel1_button5_plugins.BackgroundImage");
-            mapCreatorMain_splitContainerPanel1_button5_plugins.BackgroundImageLayout = ImageLayout.Stretch;
-            mapCreatorMain_splitContainerPanel1_button5_plugins.Location = new Point(15, 363);
-            mapCreatorMain_splitContainerPanel1_button5_plugins.Name = "mapCreatorMain_splitContainerPanel1_button5_plugins";
-            mapCreatorMain_splitContainerPanel1_button5_plugins.Size = new Size(202, 121);
-            mapCreatorMain_splitContainerPanel1_button5_plugins.TabIndex = 9;
-            mapCreatorMain_splitContainerPanel1_button5_plugins.UseVisualStyleBackColor = true;
+            mapCreatorMain_splitContainerPanel1_button_plugins.BackgroundImage = (Image)resources.GetObject("mapCreatorMain_splitContainerPanel1_button_plugins.BackgroundImage");
+            mapCreatorMain_splitContainerPanel1_button_plugins.BackgroundImageLayout = ImageLayout.Stretch;
+            mapCreatorMain_splitContainerPanel1_button_plugins.Location = new Point(15, 363);
+            mapCreatorMain_splitContainerPanel1_button_plugins.Name = "mapCreatorMain_splitContainerPanel1_button_plugins";
+            mapCreatorMain_splitContainerPanel1_button_plugins.Size = new Size(202, 121);
+            mapCreatorMain_splitContainerPanel1_button_plugins.TabIndex = 9;
+            mapCreatorMain_splitContainerPanel1_button_plugins.UseVisualStyleBackColor = true;
             // 
             // mapCreatorMain_splitContainerPanel1_pictureBox_dividerB
             // 
@@ -155,57 +163,58 @@
             mapCreatorMain_splitContainerPanel1_pictureBox_dividerT.TabIndex = 7;
             mapCreatorMain_splitContainerPanel1_pictureBox_dividerT.TabStop = false;
             // 
-            // mapCreatorMain_splitContainerPanel1_button4_compileYourNewMap
+            // mapCreatorMain_splitContainerPanel1_button_compileYourNewMap
             // 
-            mapCreatorMain_splitContainerPanel1_button4_compileYourNewMap.BackgroundImage = (Image)resources.GetObject("mapCreatorMain_splitContainerPanel1_button4_compileYourNewMap.BackgroundImage");
-            mapCreatorMain_splitContainerPanel1_button4_compileYourNewMap.BackgroundImageLayout = ImageLayout.Stretch;
-            mapCreatorMain_splitContainerPanel1_button4_compileYourNewMap.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            mapCreatorMain_splitContainerPanel1_button4_compileYourNewMap.ForeColor = Color.Navy;
-            mapCreatorMain_splitContainerPanel1_button4_compileYourNewMap.Location = new Point(15, 270);
-            mapCreatorMain_splitContainerPanel1_button4_compileYourNewMap.Name = "mapCreatorMain_splitContainerPanel1_button4_compileYourNewMap";
-            mapCreatorMain_splitContainerPanel1_button4_compileYourNewMap.Size = new Size(202, 60);
-            mapCreatorMain_splitContainerPanel1_button4_compileYourNewMap.TabIndex = 6;
-            mapCreatorMain_splitContainerPanel1_button4_compileYourNewMap.Text = "Compile Your New Map";
-            mapCreatorMain_splitContainerPanel1_button4_compileYourNewMap.UseVisualStyleBackColor = true;
+            mapCreatorMain_splitContainerPanel1_button_compileYourNewMap.BackgroundImage = (Image)resources.GetObject("mapCreatorMain_splitContainerPanel1_button_compileYourNewMap.BackgroundImage");
+            mapCreatorMain_splitContainerPanel1_button_compileYourNewMap.BackgroundImageLayout = ImageLayout.Stretch;
+            mapCreatorMain_splitContainerPanel1_button_compileYourNewMap.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            mapCreatorMain_splitContainerPanel1_button_compileYourNewMap.ForeColor = Color.Navy;
+            mapCreatorMain_splitContainerPanel1_button_compileYourNewMap.Location = new Point(15, 270);
+            mapCreatorMain_splitContainerPanel1_button_compileYourNewMap.Name = "mapCreatorMain_splitContainerPanel1_button_compileYourNewMap";
+            mapCreatorMain_splitContainerPanel1_button_compileYourNewMap.Size = new Size(202, 60);
+            mapCreatorMain_splitContainerPanel1_button_compileYourNewMap.TabIndex = 6;
+            mapCreatorMain_splitContainerPanel1_button_compileYourNewMap.Text = "Compile Your New Map";
+            mapCreatorMain_splitContainerPanel1_button_compileYourNewMap.UseVisualStyleBackColor = true;
             // 
-            // mapCreatorMain_splitContainerPanel1_button3_encodeAltitudeBitmap
+            // mapCreatorMain_splitContainerPanel1_button_encodeAltitudeBitmap
             // 
-            mapCreatorMain_splitContainerPanel1_button3_encodeAltitudeBitmap.BackgroundImage = (Image)resources.GetObject("mapCreatorMain_splitContainerPanel1_button3_encodeAltitudeBitmap.BackgroundImage");
-            mapCreatorMain_splitContainerPanel1_button3_encodeAltitudeBitmap.BackgroundImageLayout = ImageLayout.Stretch;
-            mapCreatorMain_splitContainerPanel1_button3_encodeAltitudeBitmap.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            mapCreatorMain_splitContainerPanel1_button3_encodeAltitudeBitmap.ForeColor = Color.Navy;
-            mapCreatorMain_splitContainerPanel1_button3_encodeAltitudeBitmap.Location = new Point(15, 191);
-            mapCreatorMain_splitContainerPanel1_button3_encodeAltitudeBitmap.Name = "mapCreatorMain_splitContainerPanel1_button3_encodeAltitudeBitmap";
-            mapCreatorMain_splitContainerPanel1_button3_encodeAltitudeBitmap.Size = new Size(202, 60);
-            mapCreatorMain_splitContainerPanel1_button3_encodeAltitudeBitmap.TabIndex = 5;
-            mapCreatorMain_splitContainerPanel1_button3_encodeAltitudeBitmap.Text = "Encode Altitude Bitmap";
-            mapCreatorMain_splitContainerPanel1_button3_encodeAltitudeBitmap.UseVisualStyleBackColor = true;
+            mapCreatorMain_splitContainerPanel1_button_encodeAltitudeBitmap.BackgroundImage = (Image)resources.GetObject("mapCreatorMain_splitContainerPanel1_button_encodeAltitudeBitmap.BackgroundImage");
+            mapCreatorMain_splitContainerPanel1_button_encodeAltitudeBitmap.BackgroundImageLayout = ImageLayout.Stretch;
+            mapCreatorMain_splitContainerPanel1_button_encodeAltitudeBitmap.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            mapCreatorMain_splitContainerPanel1_button_encodeAltitudeBitmap.ForeColor = Color.Navy;
+            mapCreatorMain_splitContainerPanel1_button_encodeAltitudeBitmap.Location = new Point(15, 191);
+            mapCreatorMain_splitContainerPanel1_button_encodeAltitudeBitmap.Name = "mapCreatorMain_splitContainerPanel1_button_encodeAltitudeBitmap";
+            mapCreatorMain_splitContainerPanel1_button_encodeAltitudeBitmap.Size = new Size(202, 60);
+            mapCreatorMain_splitContainerPanel1_button_encodeAltitudeBitmap.TabIndex = 5;
+            mapCreatorMain_splitContainerPanel1_button_encodeAltitudeBitmap.Text = "Encode Altitude Bitmap";
+            mapCreatorMain_splitContainerPanel1_button_encodeAltitudeBitmap.UseVisualStyleBackColor = true;
             // 
-            // mapCreatorMain_splitContainerPanel1_button2_createMapTemplate
+            // mapCreatorMain_splitContainerPanel1_button_createMapTemplate
             // 
-            mapCreatorMain_splitContainerPanel1_button2_createMapTemplate.BackgroundImage = (Image)resources.GetObject("mapCreatorMain_splitContainerPanel1_button2_createMapTemplate.BackgroundImage");
-            mapCreatorMain_splitContainerPanel1_button2_createMapTemplate.BackgroundImageLayout = ImageLayout.Stretch;
-            mapCreatorMain_splitContainerPanel1_button2_createMapTemplate.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            mapCreatorMain_splitContainerPanel1_button2_createMapTemplate.ForeColor = Color.Navy;
-            mapCreatorMain_splitContainerPanel1_button2_createMapTemplate.Location = new Point(15, 112);
-            mapCreatorMain_splitContainerPanel1_button2_createMapTemplate.Name = "mapCreatorMain_splitContainerPanel1_button2_createMapTemplate";
-            mapCreatorMain_splitContainerPanel1_button2_createMapTemplate.Size = new Size(202, 60);
-            mapCreatorMain_splitContainerPanel1_button2_createMapTemplate.TabIndex = 4;
-            mapCreatorMain_splitContainerPanel1_button2_createMapTemplate.Text = "Create Map Template";
-            mapCreatorMain_splitContainerPanel1_button2_createMapTemplate.UseVisualStyleBackColor = true;
+            mapCreatorMain_splitContainerPanel1_button_createMapTemplate.BackgroundImage = (Image)resources.GetObject("mapCreatorMain_splitContainerPanel1_button_createMapTemplate.BackgroundImage");
+            mapCreatorMain_splitContainerPanel1_button_createMapTemplate.BackgroundImageLayout = ImageLayout.Stretch;
+            mapCreatorMain_splitContainerPanel1_button_createMapTemplate.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            mapCreatorMain_splitContainerPanel1_button_createMapTemplate.ForeColor = Color.Navy;
+            mapCreatorMain_splitContainerPanel1_button_createMapTemplate.Location = new Point(15, 112);
+            mapCreatorMain_splitContainerPanel1_button_createMapTemplate.Name = "mapCreatorMain_splitContainerPanel1_button_createMapTemplate";
+            mapCreatorMain_splitContainerPanel1_button_createMapTemplate.Size = new Size(202, 60);
+            mapCreatorMain_splitContainerPanel1_button_createMapTemplate.TabIndex = 4;
+            mapCreatorMain_splitContainerPanel1_button_createMapTemplate.Text = "Create Map Template";
+            mapCreatorMain_splitContainerPanel1_button_createMapTemplate.UseVisualStyleBackColor = true;
             // 
-            // mapCreatorMain_splitContainerPanel1_button1_configureColorTables
+            // mapCreatorMain_splitContainerPanel1_button_configureColorTables
             // 
-            mapCreatorMain_splitContainerPanel1_button1_configureColorTables.BackgroundImage = (Image)resources.GetObject("mapCreatorMain_splitContainerPanel1_button1_configureColorTables.BackgroundImage");
-            mapCreatorMain_splitContainerPanel1_button1_configureColorTables.BackgroundImageLayout = ImageLayout.Stretch;
-            mapCreatorMain_splitContainerPanel1_button1_configureColorTables.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            mapCreatorMain_splitContainerPanel1_button1_configureColorTables.ForeColor = Color.Navy;
-            mapCreatorMain_splitContainerPanel1_button1_configureColorTables.Location = new Point(15, 19);
-            mapCreatorMain_splitContainerPanel1_button1_configureColorTables.Name = "mapCreatorMain_splitContainerPanel1_button1_configureColorTables";
-            mapCreatorMain_splitContainerPanel1_button1_configureColorTables.Size = new Size(202, 60);
-            mapCreatorMain_splitContainerPanel1_button1_configureColorTables.TabIndex = 3;
-            mapCreatorMain_splitContainerPanel1_button1_configureColorTables.Text = "Configure Color Tables";
-            mapCreatorMain_splitContainerPanel1_button1_configureColorTables.UseVisualStyleBackColor = true;
+            mapCreatorMain_splitContainerPanel1_button_configureColorTables.BackgroundImage = (Image)resources.GetObject("mapCreatorMain_splitContainerPanel1_button_configureColorTables.BackgroundImage");
+            mapCreatorMain_splitContainerPanel1_button_configureColorTables.BackgroundImageLayout = ImageLayout.Stretch;
+            mapCreatorMain_splitContainerPanel1_button_configureColorTables.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            mapCreatorMain_splitContainerPanel1_button_configureColorTables.ForeColor = Color.Navy;
+            mapCreatorMain_splitContainerPanel1_button_configureColorTables.Location = new Point(15, 19);
+            mapCreatorMain_splitContainerPanel1_button_configureColorTables.Name = "mapCreatorMain_splitContainerPanel1_button_configureColorTables";
+            mapCreatorMain_splitContainerPanel1_button_configureColorTables.Size = new Size(202, 60);
+            mapCreatorMain_splitContainerPanel1_button_configureColorTables.TabIndex = 3;
+            mapCreatorMain_splitContainerPanel1_button_configureColorTables.Text = "Configure Color Tables";
+            mapCreatorMain_splitContainerPanel1_button_configureColorTables.UseVisualStyleBackColor = true;
+            mapCreatorMain_splitContainerPanel1_button_configureColorTables.Click += mapCreatorMain_splitContainerPanel1_button_configureColorTables_Click;
             // 
             // mapCreatorMain
             // 
@@ -219,6 +228,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = mapCreatorMain_menuStrip;
+            MaximizeBox = false;
             Name = "mapCreatorMain";
             Text = "MapCreator";
             mapCreatorMain_menuStrip.ResumeLayout(false);
@@ -241,15 +251,16 @@
         private ToolStripMenuItem mapCreatorMain_menuStrip_menuStripButton_setupPaintSoftware;
         private ToolStripMenuItem mapCreatorMain_menuStrip_menuStripButton_cartographytutorials;
         private ToolStripMenuItem creditsToolStripMenuItem;
-        private ToolStripMenuItem mapCreatorMain_menuStrip_menuStripButton_credits;
+        private ToolStripMenuItem mapCreatorMain_menuStrip_menuStripButton_runUOBasedScripts;
         private SplitContainer mapCreatorMain_splitContainer;
         private PictureBox mapCreatorMain_splitContainerPanel1_pictureBox_dividerT;
-        private Button mapCreatorMain_splitContainerPanel1_button4_compileYourNewMap;
-        private Button mapCreatorMain_splitContainerPanel1_button3_encodeAltitudeBitmap;
-        private Button mapCreatorMain_splitContainerPanel1_button2_createMapTemplate;
-        private Button mapCreatorMain_splitContainerPanel1_button1_configureColorTables;
-        private Button mapCreatorMain_splitContainerPanel1_button5_plugins;
+        private Button mapCreatorMain_splitContainerPanel1_button_compileYourNewMap;
+        private Button mapCreatorMain_splitContainerPanel1_button_encodeAltitudeBitmap;
+        private Button mapCreatorMain_splitContainerPanel1_button_createMapTemplate;
+        private Button mapCreatorMain_splitContainerPanel1_button_configureColorTables;
+        private Button mapCreatorMain_splitContainerPanel1_button_plugins;
         private PictureBox mapCreatorMain_splitContainerPanel1_pictureBox_dividerB;
         private ToolStripStatusLabel mapCreatorMain_statusStrip_softwareVersion;
+        private ToolStripMenuItem mapCreatorMain_menuStrip_menuStripButton_credits;
     }
 }
