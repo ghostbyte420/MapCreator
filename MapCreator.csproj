@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>net8.0-windows</TargetFramework>
+	<PlatformTarget>x64</PlatformTarget>
+	<UseWindowsForms>true</UseWindowsForms>
+	<UseWPF>false</UseWPF>
+	<ImplicitUsings>enable</ImplicitUsings>  
+    <Nullable>enable</Nullable>
+	<OutputType>WinExe</OutputType>
+	<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+	<StartupObject>MapCreator.Program</StartupObject>
+	<ApplicationIcon>Resources\logos\logo_0001.ico</ApplicationIcon>	
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\logos\logo_0001.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MapCreator.Engine\MapCreator.Engine.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controls\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PresentationCore">
+      <HintPath>C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\PresentationCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
