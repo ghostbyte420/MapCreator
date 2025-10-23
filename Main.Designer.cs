@@ -201,6 +201,7 @@
             mapCreatorMain_splitContainerPanel1_button_createMapTemplate.TabIndex = 4;
             mapCreatorMain_splitContainerPanel1_button_createMapTemplate.Text = "Create Map Template";
             mapCreatorMain_splitContainerPanel1_button_createMapTemplate.UseVisualStyleBackColor = true;
+            mapCreatorMain_splitContainerPanel1_button_createMapTemplate.Click += mapCreatorMain_splitContainerPanel1_button_createMapTemplate_Click;
             // 
             // mapCreatorMain_splitContainerPanel1_button_configureColorTables
             // 

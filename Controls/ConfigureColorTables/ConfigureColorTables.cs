@@ -31,6 +31,17 @@ namespace MapCreator.Controls.ConfigureColorTables
             this.i_Menu = 0;
             this.i_Altitude = new ClsAltitudeTable();
             this.i_Terrain = new ClsTerrainTable();
+
+            #region  Screen Flickering Management
+            
+            /// For UserControl Transitioning
+            this.DoubleBuffered = true;
+            this.SetStyle(ControlStyles.OptimizedDoubleBuffer |
+                          ControlStyles.AllPaintingInWmPaint |
+                          ControlStyles.UserPaint, true);
+            this.UpdateStyles();
+
+            #endregion
         }
 
         private void configureColorTables_Load(object sender, EventArgs e)
@@ -47,18 +58,7 @@ namespace MapCreator.Controls.ConfigureColorTables
 
             /// Label Transparency: Adobe Photoshop Color Palette
             configureColorTables_label_colorTableHeader.FlatStyle = FlatStyle.Standard;
-            //configureColorTables_label_colorTableHeader.Parent = colorTables_pictureBox_backDrop;
             configureColorTables_label_colorTableHeader.BackColor = Color.Transparent;
-
-            /// Label Transparency: Load Terrain Color Tables Label
-            //colorTables_button_loadTerrainColorTables_label.FlatStyle = FlatStyle.Standard;
-            //colorTables_button_loadTerrainColorTables_label.Parent = colorTables_pictureBox_backDrop;
-            //colorTables_button_loadTerrainColorTables_label.BackColor = Color.Transparent;
-
-            /// Label Transparency: Load Altitude Color Tables Label
-            //colorTables_button_loadAltitudeColorTables_label.FlatStyle = FlatStyle.Standard;
-            //colorTables_button_loadAltitudeColorTables_label.Parent = colorTables_pictureBox_backDrop;
-            //colorTables_button_loadAltitudeColorTables_label.BackColor = Color.Transparent;
         }
 
         #region menuStrip Buttons
