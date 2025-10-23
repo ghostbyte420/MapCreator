@@ -30,15 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(configureColorTables));
             configureColorTables_menuStrip = new MenuStrip();
-            configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop = new ToolStripMenuItem();
-            configureColorTables_menuStrip_menuStripButton_gotoExportFolder = new ToolStripMenuItem();
             configureColorTables_menuStrip_menuStripButton_loadColorSwatch = new ToolStripMenuItem();
             configureColorTables_menuStrip_menuStripButton_loadColorSwatch_terrain = new ToolStripMenuItem();
             configureColorTables_menuStrip_menuStripButton_loadColorSwatch_altitude = new ToolStripMenuItem();
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch = new ToolStripMenuItem();
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain = new ToolStripMenuItem();
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act = new ToolStripMenuItem();
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco = new ToolStripMenuItem();
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude = new ToolStripMenuItem();
-            configureColorTables_menuStrip_menuStripButton_back = new ToolStripMenuItem();
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act = new ToolStripMenuItem();
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco = new ToolStripMenuItem();
+            configureColorTables_menuStrip_menuStripButton_gotoExportFolder = new ToolStripMenuItem();
+            configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop = new ToolStripMenuItem();
             configureColorTables_label_colorTableHeader = new Label();
             configureColorTables_listBox_swatchList = new ListBox();
             configureColorTables_propertyGrid_swatchDetails = new PropertyGrid();
@@ -60,34 +63,18 @@
             configureColorTables_menuStrip.BackgroundImageLayout = ImageLayout.Stretch;
             configureColorTables_menuStrip.Font = new Font("Segoe UI", 11F);
             configureColorTables_menuStrip.ImageScalingSize = new Size(25, 25);
-            configureColorTables_menuStrip.Items.AddRange(new ToolStripItem[] { configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop, configureColorTables_menuStrip_menuStripButton_gotoExportFolder, configureColorTables_menuStrip_menuStripButton_loadColorSwatch, configureColorTables_menuStrip_menuStripButton_exportColorSwatch, configureColorTables_menuStrip_menuStripButton_back });
+            configureColorTables_menuStrip.Items.AddRange(new ToolStripItem[] { configureColorTables_menuStrip_menuStripButton_loadColorSwatch, configureColorTables_menuStrip_menuStripButton_exportColorSwatch, configureColorTables_menuStrip_menuStripButton_gotoExportFolder, configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop });
             configureColorTables_menuStrip.Location = new Point(0, 0);
             configureColorTables_menuStrip.Name = "configureColorTables_menuStrip";
             configureColorTables_menuStrip.Size = new Size(774, 33);
             configureColorTables_menuStrip.TabIndex = 0;
             configureColorTables_menuStrip.Text = "menuStrip1";
             // 
-            // configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop
-            // 
-            configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop.ForeColor = Color.Lavender;
-            configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop.Image = (Image)resources.GetObject("configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop.Image");
-            configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop.Margin = new Padding(10, 0, 10, 0);
-            configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop.Name = "configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop";
-            configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop.Size = new Size(37, 29);
-            // 
-            // configureColorTables_menuStrip_menuStripButton_gotoExportFolder
-            // 
-            configureColorTables_menuStrip_menuStripButton_gotoExportFolder.ForeColor = Color.Lavender;
-            configureColorTables_menuStrip_menuStripButton_gotoExportFolder.Image = (Image)resources.GetObject("configureColorTables_menuStrip_menuStripButton_gotoExportFolder.Image");
-            configureColorTables_menuStrip_menuStripButton_gotoExportFolder.Margin = new Padding(0, 0, 10, 0);
-            configureColorTables_menuStrip_menuStripButton_gotoExportFolder.Name = "configureColorTables_menuStrip_menuStripButton_gotoExportFolder";
-            configureColorTables_menuStrip_menuStripButton_gotoExportFolder.Size = new Size(37, 29);
-            // 
             // configureColorTables_menuStrip_menuStripButton_loadColorSwatch
             // 
             configureColorTables_menuStrip_menuStripButton_loadColorSwatch.DropDownItems.AddRange(new ToolStripItem[] { configureColorTables_menuStrip_menuStripButton_loadColorSwatch_terrain, configureColorTables_menuStrip_menuStripButton_loadColorSwatch_altitude });
             configureColorTables_menuStrip_menuStripButton_loadColorSwatch.Image = (Image)resources.GetObject("configureColorTables_menuStrip_menuStripButton_loadColorSwatch.Image");
-            configureColorTables_menuStrip_menuStripButton_loadColorSwatch.Margin = new Padding(0, 0, 10, 0);
+            configureColorTables_menuStrip_menuStripButton_loadColorSwatch.Margin = new Padding(640, 0, 10, 0);
             configureColorTables_menuStrip_menuStripButton_loadColorSwatch.Name = "configureColorTables_menuStrip_menuStripButton_loadColorSwatch";
             configureColorTables_menuStrip_menuStripButton_loadColorSwatch.Size = new Size(37, 29);
             // 
@@ -95,15 +82,17 @@
             // 
             configureColorTables_menuStrip_menuStripButton_loadColorSwatch_terrain.Image = (Image)resources.GetObject("configureColorTables_menuStrip_menuStripButton_loadColorSwatch_terrain.Image");
             configureColorTables_menuStrip_menuStripButton_loadColorSwatch_terrain.Name = "configureColorTables_menuStrip_menuStripButton_loadColorSwatch_terrain";
-            configureColorTables_menuStrip_menuStripButton_loadColorSwatch_terrain.Size = new Size(228, 32);
-            configureColorTables_menuStrip_menuStripButton_loadColorSwatch_terrain.Text = "Load Terrain Swatch";
+            configureColorTables_menuStrip_menuStripButton_loadColorSwatch_terrain.Size = new Size(189, 32);
+            configureColorTables_menuStrip_menuStripButton_loadColorSwatch_terrain.Text = "Load Terrain";
+            configureColorTables_menuStrip_menuStripButton_loadColorSwatch_terrain.Click += configureColorTables_menuStrip_menuStripButton_loadColorSwatch_terrain_Click;
             // 
             // configureColorTables_menuStrip_menuStripButton_loadColorSwatch_altitude
             // 
             configureColorTables_menuStrip_menuStripButton_loadColorSwatch_altitude.Image = (Image)resources.GetObject("configureColorTables_menuStrip_menuStripButton_loadColorSwatch_altitude.Image");
             configureColorTables_menuStrip_menuStripButton_loadColorSwatch_altitude.Name = "configureColorTables_menuStrip_menuStripButton_loadColorSwatch_altitude";
-            configureColorTables_menuStrip_menuStripButton_loadColorSwatch_altitude.Size = new Size(228, 32);
-            configureColorTables_menuStrip_menuStripButton_loadColorSwatch_altitude.Text = "Load Altitude Swatch";
+            configureColorTables_menuStrip_menuStripButton_loadColorSwatch_altitude.Size = new Size(189, 32);
+            configureColorTables_menuStrip_menuStripButton_loadColorSwatch_altitude.Text = "Load Altitude";
+            configureColorTables_menuStrip_menuStripButton_loadColorSwatch_altitude.Click += configureColorTables_menuStrip_menuStripButton_loadColorSwatch_altitude_Click;
             // 
             // configureColorTables_menuStrip_menuStripButton_exportColorSwatch
             // 
@@ -115,24 +104,65 @@
             // 
             // configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain
             // 
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain.DropDownItems.AddRange(new ToolStripItem[] { configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act, configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco });
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain.Image = (Image)resources.GetObject("configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain.Image");
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain.Name = "configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain";
-            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain.Size = new Size(226, 32);
-            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain.Text = "Save Terrain Swatch";
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain.Size = new Size(189, 32);
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain.Text = "Save Terrain...";
+            // 
+            // configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act
+            // 
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act.Name = "configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act";
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act.Size = new Size(180, 24);
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act.Text = ".act Swatch";
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act.Click += configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act_Click;
+            // 
+            // configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco
+            // 
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco.Name = "configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco";
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco.Size = new Size(180, 24);
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco.Text = ".aco Swatch";
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco.Click += configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco_Click;
             // 
             // configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude
             // 
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude.DropDownItems.AddRange(new ToolStripItem[] { configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act, configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco });
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude.Image = (Image)resources.GetObject("configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude.Image");
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude.Name = "configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude";
-            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude.Size = new Size(226, 32);
-            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude.Text = "Save Altitude Swatch";
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude.Size = new Size(189, 32);
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude.Text = "Save Altitude...";
             // 
-            // configureColorTables_menuStrip_menuStripButton_back
+            // configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act
             // 
-            configureColorTables_menuStrip_menuStripButton_back.Image = (Image)resources.GetObject("configureColorTables_menuStrip_menuStripButton_back.Image");
-            configureColorTables_menuStrip_menuStripButton_back.Margin = new Padding(530, 0, 0, 0);
-            configureColorTables_menuStrip_menuStripButton_back.Name = "configureColorTables_menuStrip_menuStripButton_back";
-            configureColorTables_menuStrip_menuStripButton_back.Size = new Size(37, 29);
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act.Name = "configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act";
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act.Size = new Size(180, 24);
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act.Text = ".act Swatch";
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act.Click += configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act_Click;
+            // 
+            // configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco
+            // 
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco.Name = "configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco";
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco.Size = new Size(180, 24);
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco.Text = ".aco Swatch";
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco.Click += configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco_Click;
+            // 
+            // configureColorTables_menuStrip_menuStripButton_gotoExportFolder
+            // 
+            configureColorTables_menuStrip_menuStripButton_gotoExportFolder.ForeColor = Color.Lavender;
+            configureColorTables_menuStrip_menuStripButton_gotoExportFolder.Image = (Image)resources.GetObject("configureColorTables_menuStrip_menuStripButton_gotoExportFolder.Image");
+            configureColorTables_menuStrip_menuStripButton_gotoExportFolder.Margin = new Padding(0, 0, 10, 0);
+            configureColorTables_menuStrip_menuStripButton_gotoExportFolder.Name = "configureColorTables_menuStrip_menuStripButton_gotoExportFolder";
+            configureColorTables_menuStrip_menuStripButton_gotoExportFolder.Size = new Size(37, 29);
+            configureColorTables_menuStrip_menuStripButton_gotoExportFolder.Click += configureColorTables_menuStrip_menuStripButton_gotoExportFolder_Click;
+            // 
+            // configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop
+            // 
+            configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop.ForeColor = Color.Lavender;
+            configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop.Image = (Image)resources.GetObject("configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop.Image");
+            configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop.Margin = new Padding(0, 0, 10, 0);
+            configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop.Name = "configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop";
+            configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop.Size = new Size(37, 29);
+            configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop.Click += configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop_Click;
             // 
             // configureColorTables_label_colorTableHeader
             // 
@@ -153,6 +183,7 @@
             configureColorTables_listBox_swatchList.Name = "configureColorTables_listBox_swatchList";
             configureColorTables_listBox_swatchList.Size = new Size(390, 289);
             configureColorTables_listBox_swatchList.TabIndex = 2;
+            configureColorTables_listBox_swatchList.SelectedIndexChanged += configureColorTables_listBox_swatchList_SelectedIndexChanged;
             // 
             // configureColorTables_propertyGrid_swatchDetails
             // 
@@ -207,7 +238,7 @@
             configureColorTables_label_fileTypeWarning.AutoSize = true;
             configureColorTables_label_fileTypeWarning.Font = new Font("Segoe UI", 11F);
             configureColorTables_label_fileTypeWarning.ForeColor = Color.Lavender;
-            configureColorTables_label_fileTypeWarning.Location = new Point(14, 398);
+            configureColorTables_label_fileTypeWarning.Location = new Point(21, 398);
             configureColorTables_label_fileTypeWarning.Name = "configureColorTables_label_fileTypeWarning";
             configureColorTables_label_fileTypeWarning.Size = new Size(277, 60);
             configureColorTables_label_fileTypeWarning.TabIndex = 8;
@@ -241,6 +272,7 @@
             Controls.Add(configureColorTables_menuStrip);
             Name = "configureColorTables";
             Size = new Size(774, 511);
+            Load += configureColorTables_Load;
             configureColorTables_menuStrip.ResumeLayout(false);
             configureColorTables_menuStrip.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)configureColorTables_pictureBox_altitudeTiles).EndInit();
@@ -259,7 +291,6 @@
         private ToolStripMenuItem configureColorTables_menuStrip_menuStripButton_loadColorSwatch_terrain;
         private ToolStripMenuItem configureColorTables_menuStrip_menuStripButton_loadColorSwatch_altitude;
         private ToolStripMenuItem configureColorTables_menuStrip_menuStripButton_exportColorSwatch;
-        private ToolStripMenuItem configureColorTables_menuStrip_menuStripButton_back;
         private ToolStripMenuItem configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain;
         private ToolStripMenuItem configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude;
         private Label configureColorTables_label_colorTableHeader;
@@ -271,5 +302,9 @@
         private Label configureColorTables_label_altitudeColorGradient;
         private Label configureColorTables_label_fileTypeWarning;
         private Label configureColorTables_label_selectionProperties;
+        private ToolStripMenuItem configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act;
+        private ToolStripMenuItem configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco;
+        private ToolStripMenuItem configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act;
+        private ToolStripMenuItem configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco;
     }
 }
