@@ -32,6 +32,7 @@
             createMapTemplate_menuStrip = new MenuStrip();
             createMapTemplate_menuStrip_menuStripButton_loadProjectLocation = new ToolStripMenuItem();
             createMapTemplate_menuStrip_menuStripButton_generateTemplate = new ToolStripMenuItem();
+            createMapTemplate_menuStrip_menuStripButton_editFacetSizes = new ToolStripMenuItem();
             createMapTemplate_textBox_projectLocation = new TextBox();
             createMapTemplate_textBox_terrainBitmap = new TextBox();
             createMapTemplate_textBox_altitudeBitmap = new TextBox();
@@ -48,7 +49,7 @@
             createMapTemplate_label_facetSizeWarning = new Label();
             createMapTemplate_pictureBox_divder2B = new PictureBox();
             createMapTemplate_pictureBox_divder2T = new PictureBox();
-            createMapTemplate_label_fileLocation = new Label();
+            createMapTemplate_label_facetLocation = new Label();
             createMapTemplate_menuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)createMapTemplate_pictureBox_divder1T).BeginInit();
             ((System.ComponentModel.ISupportInitialize)createMapTemplate_pictureBox_divder1B).BeginInit();
@@ -63,7 +64,7 @@
             createMapTemplate_menuStrip.BackgroundImageLayout = ImageLayout.Stretch;
             createMapTemplate_menuStrip.Font = new Font("Segoe UI", 11F);
             createMapTemplate_menuStrip.ImageScalingSize = new Size(25, 25);
-            createMapTemplate_menuStrip.Items.AddRange(new ToolStripItem[] { createMapTemplate_menuStrip_menuStripButton_loadProjectLocation, createMapTemplate_menuStrip_menuStripButton_generateTemplate });
+            createMapTemplate_menuStrip.Items.AddRange(new ToolStripItem[] { createMapTemplate_menuStrip_menuStripButton_loadProjectLocation, createMapTemplate_menuStrip_menuStripButton_generateTemplate, createMapTemplate_menuStrip_menuStripButton_editFacetSizes });
             createMapTemplate_menuStrip.Location = new Point(0, 0);
             createMapTemplate_menuStrip.Name = "createMapTemplate_menuStrip";
             createMapTemplate_menuStrip.Size = new Size(774, 33);
@@ -73,15 +74,25 @@
             // createMapTemplate_menuStrip_menuStripButton_loadProjectLocation
             // 
             createMapTemplate_menuStrip_menuStripButton_loadProjectLocation.Image = (Image)resources.GetObject("createMapTemplate_menuStrip_menuStripButton_loadProjectLocation.Image");
-            createMapTemplate_menuStrip_menuStripButton_loadProjectLocation.Margin = new Padding(650, 0, 9, 0);
+            createMapTemplate_menuStrip_menuStripButton_loadProjectLocation.Margin = new Padding(687, 0, 9, 0);
             createMapTemplate_menuStrip_menuStripButton_loadProjectLocation.Name = "createMapTemplate_menuStrip_menuStripButton_loadProjectLocation";
             createMapTemplate_menuStrip_menuStripButton_loadProjectLocation.Size = new Size(37, 29);
+            createMapTemplate_menuStrip_menuStripButton_loadProjectLocation.Click += createMapTemplate_menuStrip_menuStripButton_loadProjectLocation_Click;
             // 
             // createMapTemplate_menuStrip_menuStripButton_generateTemplate
             // 
             createMapTemplate_menuStrip_menuStripButton_generateTemplate.Image = (Image)resources.GetObject("createMapTemplate_menuStrip_menuStripButton_generateTemplate.Image");
+            createMapTemplate_menuStrip_menuStripButton_generateTemplate.Margin = new Padding(0, 0, 10, 0);
             createMapTemplate_menuStrip_menuStripButton_generateTemplate.Name = "createMapTemplate_menuStrip_menuStripButton_generateTemplate";
             createMapTemplate_menuStrip_menuStripButton_generateTemplate.Size = new Size(37, 29);
+            createMapTemplate_menuStrip_menuStripButton_generateTemplate.Click += createMapTemplate_menuStrip_menuStripButton_generateTemplate_Click;
+            // 
+            // createMapTemplate_menuStrip_menuStripButton_editFacetSizes
+            // 
+            createMapTemplate_menuStrip_menuStripButton_editFacetSizes.Image = (Image)resources.GetObject("createMapTemplate_menuStrip_menuStripButton_editFacetSizes.Image");
+            createMapTemplate_menuStrip_menuStripButton_editFacetSizes.Name = "createMapTemplate_menuStrip_menuStripButton_editFacetSizes";
+            createMapTemplate_menuStrip_menuStripButton_editFacetSizes.Size = new Size(37, 29);
+            createMapTemplate_menuStrip_menuStripButton_editFacetSizes.Click += createMapTemplate_menuStrip_menuStripButton_editFacetSizes_Click;
             // 
             // createMapTemplate_textBox_projectLocation
             // 
@@ -168,7 +179,7 @@
             // createMapTemplate_pictureBox_backDrop
             // 
             createMapTemplate_pictureBox_backDrop.Image = (Image)resources.GetObject("createMapTemplate_pictureBox_backDrop.Image");
-            createMapTemplate_pictureBox_backDrop.Location = new Point(15, 59);
+            createMapTemplate_pictureBox_backDrop.Location = new Point(17, 58);
             createMapTemplate_pictureBox_backDrop.Name = "createMapTemplate_pictureBox_backDrop";
             createMapTemplate_pictureBox_backDrop.Size = new Size(426, 420);
             createMapTemplate_pictureBox_backDrop.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -240,16 +251,16 @@
             createMapTemplate_pictureBox_divder2T.TabIndex = 14;
             createMapTemplate_pictureBox_divder2T.TabStop = false;
             // 
-            // createMapTemplate_label_fileLocation
+            // createMapTemplate_label_facetLocation
             // 
-            createMapTemplate_label_fileLocation.AutoSize = true;
-            createMapTemplate_label_fileLocation.Font = new Font("Segoe UI", 11F);
-            createMapTemplate_label_fileLocation.ForeColor = Color.Lavender;
-            createMapTemplate_label_fileLocation.Location = new Point(497, 64);
-            createMapTemplate_label_fileLocation.Name = "createMapTemplate_label_fileLocation";
-            createMapTemplate_label_fileLocation.Size = new Size(92, 20);
-            createMapTemplate_label_fileLocation.TabIndex = 15;
-            createMapTemplate_label_fileLocation.Text = "Facet Folder:";
+            createMapTemplate_label_facetLocation.AutoSize = true;
+            createMapTemplate_label_facetLocation.Font = new Font("Segoe UI", 11F);
+            createMapTemplate_label_facetLocation.ForeColor = Color.Lavender;
+            createMapTemplate_label_facetLocation.Location = new Point(497, 64);
+            createMapTemplate_label_facetLocation.Name = "createMapTemplate_label_facetLocation";
+            createMapTemplate_label_facetLocation.Size = new Size(92, 20);
+            createMapTemplate_label_facetLocation.TabIndex = 15;
+            createMapTemplate_label_facetLocation.Text = "Facet Folder:";
             // 
             // createMapTemplate
             // 
@@ -257,7 +268,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
             BackgroundImageLayout = ImageLayout.Stretch;
-            Controls.Add(createMapTemplate_label_fileLocation);
+            Controls.Add(createMapTemplate_label_facetLocation);
             Controls.Add(createMapTemplate_pictureBox_divder2T);
             Controls.Add(createMapTemplate_pictureBox_divder2B);
             Controls.Add(createMapTemplate_label_baseTerrain);
@@ -277,6 +288,8 @@
             Controls.Add(createMapTemplate_label_facetSizeWarning);
             Name = "createMapTemplate";
             Size = new Size(774, 511);
+            Load += createMapTemplate_Load;
+            VisibleChanged += createMapTemplate_VisibleChanged;
             createMapTemplate_menuStrip.ResumeLayout(false);
             createMapTemplate_menuStrip.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)createMapTemplate_pictureBox_divder1T).EndInit();
@@ -310,8 +323,9 @@
         private Label createMapTemplate_label_facetSizeWarning;
         private PictureBox createMapTemplate_pictureBox_divder2B;
         private PictureBox createMapTemplate_pictureBox_divder2T;
-        private Label createMapTemplate_label_fileLocation;
+        private Label createMapTemplate_label_facetLocation;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
+        private ToolStripMenuItem createMapTemplate_menuStrip_menuStripButton_editFacetSizes;
     }
 }

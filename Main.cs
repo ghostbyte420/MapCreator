@@ -1,6 +1,7 @@
+using System.Windows.Forms;
+
 using MapCreator.Controls;
 using MapCreator.Controls.ConfigureColorTables;
-using System.Windows.Forms;
 
 
 namespace MapCreator
