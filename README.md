@@ -55,7 +55,13 @@ Visual Studio 2022 Community Edition
 <img width="896" height="512" alt="A50" src="https://github.com/user-attachments/assets/e600c315-95db-4b1c-b618-4b57575751c5" />
 
 ***
+
+> Development Team Credits
+<img width="1089" height="586" alt="5" src="https://github.com/user-attachments/assets/a3ae62ed-d707-4ceb-9073-afeb4fb03f63" />
+
+***
 > The Build Logger (Utilitzed by Many of the Plugins)
 <img width="477" height="399" alt="3a" src="https://github.com/user-attachments/assets/3fd8fd69-f045-4c95-b7ce-71dec1802487" />
+
 
 
