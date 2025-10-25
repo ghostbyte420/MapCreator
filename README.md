@@ -37,7 +37,7 @@ Visual Studio 2022 Community Edition
 <img width="1089" height="586" alt="Screenshot 2025-10-24 235643" src="https://github.com/user-attachments/assets/c348057c-5fd2-450a-a704-9b94f89dd56e" />
 <br><br><br>
 
-> New Feature: Button To Open Terrain.xml To Quickly Edit and Associate New Game TileIDs to Adobe Photoshop™ Colors
+> New Feature: Added Button To Open Terrain.xml: Allows Quick Association Between TileIDs to Adobe Photoshop™ Colors
 <img width="1059" height="915" alt="Screenshot 2025-10-24 235736" src="https://github.com/user-attachments/assets/d92353e1-49ec-4f25-b989-a2a6cd71ab55" />
 
 ***
@@ -46,7 +46,7 @@ Visual Studio 2022 Community Edition
 <img width="1089" height="586" alt="3" src="https://github.com/user-attachments/assets/65e7237c-606f-425a-b243-1c7d3574b53d" />
 <br><br><br>
 
-> New Feature: Button To Open MapInfo.xml To Quickly Edit or Add New Custom Map Sizes To Output
+> New Feature: Added Button To Open MapInfo.xml To Quickly Edit or Add New Custom Map Sizes To Output
 <img width="948" height="279" alt="4" src="https://github.com/user-attachments/assets/d72304ee-fe66-431a-80e3-fbf2074ed8ae" />
 <br><br><br>
 
