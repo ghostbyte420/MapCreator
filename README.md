@@ -1,3 +1,5 @@
+# *This Project Is Working, But Is NOT READY for Use, We Are Still Working On It! When Its Ready We Will Upload The MapCompiler and Developement Directories Required To Use The Program*
+
 ## Welcome to MapCreator!
 
 This software is for use with all custom Ultima Online™ emulation servers; whether you are using **UOX**, **POL**, **RunUO**, **ServUO**, or **Sphere**, using this software with a paint program will enable you to compile your own custom worlds!
