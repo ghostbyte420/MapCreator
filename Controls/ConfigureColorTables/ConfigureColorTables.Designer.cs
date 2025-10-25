@@ -41,6 +41,7 @@
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act = new ToolStripMenuItem();
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco = new ToolStripMenuItem();
             configureColorTables_menuStrip_menuStripButton_gotoExportFolder = new ToolStripMenuItem();
+            configureColorTables_menuStrip_menuStripButton_editTerrainxml = new ToolStripMenuItem();
             configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop = new ToolStripMenuItem();
             configureColorTables_label_colorTableHeader = new Label();
             configureColorTables_listBox_swatchList = new ListBox();
@@ -63,7 +64,7 @@
             configureColorTables_menuStrip.BackgroundImageLayout = ImageLayout.Stretch;
             configureColorTables_menuStrip.Font = new Font("Segoe UI", 11F);
             configureColorTables_menuStrip.ImageScalingSize = new Size(25, 25);
-            configureColorTables_menuStrip.Items.AddRange(new ToolStripItem[] { configureColorTables_menuStrip_menuStripButton_loadColorSwatch, configureColorTables_menuStrip_menuStripButton_exportColorSwatch, configureColorTables_menuStrip_menuStripButton_gotoExportFolder, configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop });
+            configureColorTables_menuStrip.Items.AddRange(new ToolStripItem[] { configureColorTables_menuStrip_menuStripButton_loadColorSwatch, configureColorTables_menuStrip_menuStripButton_exportColorSwatch, configureColorTables_menuStrip_menuStripButton_gotoExportFolder, configureColorTables_menuStrip_menuStripButton_editTerrainxml, configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop });
             configureColorTables_menuStrip.Location = new Point(0, 0);
             configureColorTables_menuStrip.Name = "configureColorTables_menuStrip";
             configureColorTables_menuStrip.Size = new Size(774, 33);
@@ -74,7 +75,7 @@
             // 
             configureColorTables_menuStrip_menuStripButton_loadColorSwatch.DropDownItems.AddRange(new ToolStripItem[] { configureColorTables_menuStrip_menuStripButton_loadColorSwatch_terrain, configureColorTables_menuStrip_menuStripButton_loadColorSwatch_altitude });
             configureColorTables_menuStrip_menuStripButton_loadColorSwatch.Image = (Image)resources.GetObject("configureColorTables_menuStrip_menuStripButton_loadColorSwatch.Image");
-            configureColorTables_menuStrip_menuStripButton_loadColorSwatch.Margin = new Padding(640, 0, 10, 0);
+            configureColorTables_menuStrip_menuStripButton_loadColorSwatch.Margin = new Padding(593, 0, 10, 0);
             configureColorTables_menuStrip_menuStripButton_loadColorSwatch.Name = "configureColorTables_menuStrip_menuStripButton_loadColorSwatch";
             configureColorTables_menuStrip_menuStripButton_loadColorSwatch.Size = new Size(37, 29);
             // 
@@ -107,20 +108,20 @@
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain.DropDownItems.AddRange(new ToolStripItem[] { configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act, configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco });
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain.Image = (Image)resources.GetObject("configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain.Image");
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain.Name = "configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain";
-            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain.Size = new Size(189, 32);
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain.Size = new Size(184, 32);
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain.Text = "Save Terrain...";
             // 
             // configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act
             // 
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act.Name = "configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act";
-            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act.Size = new Size(180, 24);
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act.Size = new Size(156, 24);
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act.Text = ".act Swatch";
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act.Click += configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act_Click;
             // 
             // configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco
             // 
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco.Name = "configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco";
-            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco.Size = new Size(180, 24);
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco.Size = new Size(156, 24);
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco.Text = ".aco Swatch";
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco.Click += configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco_Click;
             // 
@@ -129,20 +130,20 @@
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude.DropDownItems.AddRange(new ToolStripItem[] { configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act, configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco });
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude.Image = (Image)resources.GetObject("configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude.Image");
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude.Name = "configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude";
-            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude.Size = new Size(189, 32);
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude.Size = new Size(184, 32);
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude.Text = "Save Altitude...";
             // 
             // configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act
             // 
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act.Name = "configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act";
-            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act.Size = new Size(180, 24);
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act.Size = new Size(156, 24);
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act.Text = ".act Swatch";
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act.Click += configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act_Click;
             // 
             // configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco
             // 
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco.Name = "configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco";
-            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco.Size = new Size(180, 24);
+            configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco.Size = new Size(156, 24);
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco.Text = ".aco Swatch";
             configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco.Click += configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco_Click;
             // 
@@ -154,6 +155,14 @@
             configureColorTables_menuStrip_menuStripButton_gotoExportFolder.Name = "configureColorTables_menuStrip_menuStripButton_gotoExportFolder";
             configureColorTables_menuStrip_menuStripButton_gotoExportFolder.Size = new Size(37, 29);
             configureColorTables_menuStrip_menuStripButton_gotoExportFolder.Click += configureColorTables_menuStrip_menuStripButton_gotoExportFolder_Click;
+            // 
+            // configureColorTables_menuStrip_menuStripButton_editTerrainxml
+            // 
+            configureColorTables_menuStrip_menuStripButton_editTerrainxml.Image = (Image)resources.GetObject("configureColorTables_menuStrip_menuStripButton_editTerrainxml.Image");
+            configureColorTables_menuStrip_menuStripButton_editTerrainxml.Margin = new Padding(0, 0, 10, 0);
+            configureColorTables_menuStrip_menuStripButton_editTerrainxml.Name = "configureColorTables_menuStrip_menuStripButton_editTerrainxml";
+            configureColorTables_menuStrip_menuStripButton_editTerrainxml.Size = new Size(37, 29);
+            configureColorTables_menuStrip_menuStripButton_editTerrainxml.Click += configureColorTables_menuStrip_menuStripButton_editTerrainxml_Click;
             // 
             // configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop
             // 
@@ -306,5 +315,6 @@
         private ToolStripMenuItem configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco;
         private ToolStripMenuItem configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act;
         private ToolStripMenuItem configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_aco;
+        private ToolStripMenuItem configureColorTables_menuStrip_menuStripButton_editTerrainxml;
     }
 }

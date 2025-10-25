@@ -33,7 +33,7 @@ namespace MapCreator.Controls.ConfigureColorTables
             this.i_Terrain = new ClsTerrainTable();
 
             #region  Screen Flickering Management
-            
+
             /// For UserControl Transitioning
             this.DoubleBuffered = true;
             this.SetStyle(ControlStyles.OptimizedDoubleBuffer |
@@ -63,6 +63,33 @@ namespace MapCreator.Controls.ConfigureColorTables
 
         #region menuStrip Buttons
 
+        private void configureColorTables_menuStrip_menuStripButton_editTerrainxml_Click(object sender, EventArgs e)
+        {
+            // Build the full path relative to your application's startup directory
+            string xmlPath = Path.Combine(Application.StartupPath, "MapCompiler", "Engine", "Terrain.xml");
+
+            if (File.Exists(xmlPath))
+            {
+                try
+                {
+                    var psi = new ProcessStartInfo
+                    {
+                        FileName = xmlPath,
+                        UseShellExecute = true
+                    };
+                    Process.Start(psi);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Could not open the file: " + ex.Message);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Terrain.xml not found at: " + xmlPath);
+            }
+        }
+
         private void configureColorTables_menuStrip_menuStripButton_getAdobePhotoshop_Click(object sender, EventArgs e)
         {
             ProcessStartInfo getAdobePhotoshop = new ProcessStartInfo
@@ -91,6 +118,18 @@ namespace MapCreator.Controls.ConfigureColorTables
             this.i_Terrain.Load();
             this.i_Terrain.Display(this.configureColorTables_listBox_swatchList);
 
+            #region Load ListBox In Reverse Order
+
+            // Get a reversed copy of the current items
+            var reversed = this.configureColorTables_listBox_swatchList.Items.Cast<object>().Reverse().ToList();
+
+            // Clear and refill the ListBox with the reversed items
+            this.configureColorTables_listBox_swatchList.Items.Clear();
+            foreach (var item in reversed)
+                this.configureColorTables_listBox_swatchList.Items.Add(item);
+
+            #endregion
+
             this.configureColorTables_pictureBox_colorTables.Hide();
             this.configureColorTables_pictureBox_altitudeTiles.Visible = false;
             this.configureColorTables_pictureBox_tileDisplay.Visible = true;
@@ -98,6 +137,16 @@ namespace MapCreator.Controls.ConfigureColorTables
             this.configureColorTables_label_fileTypeWarning.Show();
             this.configureColorTables_label_altitudeColorGradient.Hide();
             this.configureColorTables_pictureBox_altitudeTiles.Hide();
+        }
+        
+        private void configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act_Click(object sender, EventArgs e)
+        {
+            this.i_Terrain.SaveACT();
+        }
+
+        private void configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco_Click(object sender, EventArgs e)
+        {
+            this.i_Terrain.SaveACO();
         }
 
         private void configureColorTables_menuStrip_menuStripButton_loadColorSwatch_altitude_Click(object sender, EventArgs e)
@@ -108,22 +157,24 @@ namespace MapCreator.Controls.ConfigureColorTables
             this.i_Altitude.Load();
             this.i_Altitude.Display(this.configureColorTables_listBox_swatchList);
 
+            #region Load ListBox In Reverse Order
+
+            // Get a reversed copy of the current items
+            var reversed = this.configureColorTables_listBox_swatchList.Items.Cast<object>().Reverse().ToList();
+
+            // Clear and refill the ListBox with the reversed items
+            this.configureColorTables_listBox_swatchList.Items.Clear();
+            foreach (var item in reversed)
+                this.configureColorTables_listBox_swatchList.Items.Add(item);
+
+            #endregion
+
             this.configureColorTables_pictureBox_colorTables.Hide();
             this.configureColorTables_pictureBox_tileDisplay.Visible = false;
             this.configureColorTables_pictureBox_altitudeTiles.Visible = true;
 
             this.configureColorTables_label_fileTypeWarning.Hide();
             this.configureColorTables_label_altitudeColorGradient.Show();
-        }
-
-        private void configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_act_Click(object sender, EventArgs e)
-        {
-            this.i_Terrain.SaveACT();
-        }
-
-        private void configureColorTables_menuStrip_menuStripButton_exportColorSwatch_terrain_aco_Click(object sender, EventArgs e)
-        {
-            this.i_Terrain.SaveACO();
         }
 
         private void configureColorTables_menuStrip_menuStripButton_exportColorSwatch_altitude_act_Click(object sender, EventArgs e)
@@ -135,7 +186,6 @@ namespace MapCreator.Controls.ConfigureColorTables
         {
             this.i_Altitude.SaveACO();
         }
-
 
         #endregion
 

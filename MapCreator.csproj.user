@@ -7,6 +7,9 @@
     <Compile Update="Controls\CreateMapTemplate\CreateMapTemplate.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Controls\DevelopmentTeamCredits\DevelopmentTeamCredits.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Main.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -90,6 +90,7 @@
             mapCreatorMain_menuStrip_menuStripButton_credits.Margin = new Padding(535, 0, 0, 0);
             mapCreatorMain_menuStrip_menuStripButton_credits.Name = "mapCreatorMain_menuStrip_menuStripButton_credits";
             mapCreatorMain_menuStrip_menuStripButton_credits.Size = new Size(36, 28);
+            mapCreatorMain_menuStrip_menuStripButton_credits.Click += mapCreatorMain_menuStrip_menuStripButton_credits_Click;
             // 
             // mapCreatorMain_statusStrip
             // 

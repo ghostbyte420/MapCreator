@@ -1,7 +1,7 @@
-using System.Windows.Forms;
-
 using MapCreator.Controls;
 using MapCreator.Controls.ConfigureColorTables;
+using MapCreator.Controls.DevelopmentTeamCredits;
+using System.Windows.Forms;
 
 
 namespace MapCreator
@@ -12,10 +12,7 @@ namespace MapCreator
         {
             InitializeComponent();
 
-            this.MaximizeBox = false;  // disables and hides maximize button (no gray box)
-
-            mapCreatorMain_splitContainerPanel1_button_configureColorTables.Click += mapCreatorMain_splitContainerPanel1_button_configureColorTables_Click;
-            mapCreatorMain_splitContainerPanel1_button_compileYourNewMap.Click += mapCreatorMain_splitContainerPanel1_button_createMapTemplate_Click;
+            this.MaximizeBox = false;
         }
 
         private void ShowControlInsidePanel2(UserControl control)
@@ -33,6 +30,11 @@ namespace MapCreator
         private void mapCreatorMain_splitContainerPanel1_button_createMapTemplate_Click(object sender, EventArgs e)
         {
             ShowControlInsidePanel2(new createMapTemplate());
+        }
+
+        private void mapCreatorMain_menuStrip_menuStripButton_credits_Click(object sender, EventArgs e)
+        {
+            ShowControlInsidePanel2(new developmentTeamCredits());
         }
     }
 }
