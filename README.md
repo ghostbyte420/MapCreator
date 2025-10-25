@@ -30,12 +30,15 @@ Visual Studio 2022 Community Edition
 ***
 
 > Configure Color Tables: Terrain 
-<img width="1089" height="586" alt="2a" src="https://github.com/user-attachments/assets/3ab3d07f-021f-4d5b-8222-874c4c55d124" />
-
-***
+<img width="1089" height="586" alt="Screenshot 2025-10-24 235608" src="https://github.com/user-attachments/assets/0f8871cd-2530-414c-93bd-c77860bd4281" />
+<br><br><br>
 
 > Configure Color Tables: Altitude
-<img width="1089" height="586" alt="2b" src="https://github.com/user-attachments/assets/3374a961-fe5f-40e6-9b4f-370c77bf5b92" />
+<img width="1089" height="586" alt="Screenshot 2025-10-24 235643" src="https://github.com/user-attachments/assets/c348057c-5fd2-450a-a704-9b94f89dd56e" />
+<br><br><br>
+
+> New Feature: Button To Open Terrain.xml To Quickly Edit and Associate New Game TileIDs to Adobe Photoshop™ Colors
+<img width="1059" height="915" alt="Screenshot 2025-10-24 235736" src="https://github.com/user-attachments/assets/d92353e1-49ec-4f25-b989-a2a6cd71ab55" />
 
 ***
 
