@@ -1,0 +1,131 @@
+D:\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\MapCreator.Engine.deps.json
+D:\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\MapCreator.Engine.dll
+D:\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\MapCreator.Engine.pdb
+D:\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.csproj.AssemblyReference.cache
+D:\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Logger.resources
+D:\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.csproj.GenerateResource.cache
+D:\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.GeneratedMSBuildEditorConfig.editorconfig
+D:\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.AssemblyInfoInputs.cache
+D:\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.AssemblyInfo.cs
+D:\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.csproj.CoreCompileInputs.cache
+D:\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.dll
+D:\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\refint\MapCreator.Engine.dll
+D:\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.pdb
+D:\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\ref\MapCreator.Engine.dll
+D:\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Plugin.BuildLogger.buildLogger.resources
+D:\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Properties.Resources.resources
+D:\MapCreator_New\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.csproj.AssemblyReference.cache
+D:\MapCreator_New\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Plugin.BuildLogger.buildLogger.resources
+D:\MapCreator_New\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Properties.Resources.resources
+D:\MapCreator_New\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.csproj.GenerateResource.cache
+D:\MapCreator_New\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.GeneratedMSBuildEditorConfig.editorconfig
+D:\MapCreator_New\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.AssemblyInfoInputs.cache
+D:\MapCreator_New\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.AssemblyInfo.cs
+D:\MapCreator_New\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.csproj.CoreCompileInputs.cache
+D:\MapCreator_New\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.dll
+D:\MapCreator_New\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\refint\MapCreator.Engine.dll
+D:\MapCreator_New\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.pdb
+D:\MapCreator_New\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\MapCreator.Engine.deps.json
+D:\MapCreator_New\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\MapCreator.Engine.dll
+D:\MapCreator_New\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\MapCreator.Engine.pdb
+D:\MapCreator_New\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\ref\MapCreator.Engine.dll
+D:\MapCreator_New\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Lexilla.dll
+D:\MapCreator_New\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Scintilla.dll
+D:\MapCreator_New\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x64\native\Lexilla.dll
+D:\MapCreator_New\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x64\native\Scintilla.dll
+D:\MapCreator_New\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x86\native\Lexilla.dll
+D:\MapCreator_New\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x86\native\Scintilla.dll
+D:\MapCreator_New\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Plugin.XMLFileEditor.xmlFileEditor.resources
+D:\MapCreator_New\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Plugin.FacetDesigner.facetDesigner.resources
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Lexilla.dll
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Scintilla.dll
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x64\native\Lexilla.dll
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x64\native\Scintilla.dll
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x86\native\Lexilla.dll
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x86\native\Scintilla.dll
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\bin\Debug\net8.0-windows\MapCreator.Engine.deps.json
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\bin\Debug\net8.0-windows\MapCreator.Engine.dll
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\bin\Debug\net8.0-windows\MapCreator.Engine.pdb
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.csproj.AssemblyReference.cache
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Plugin.BuildLogger.buildLogger.resources
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Plugin.FacetDesigner.facetDesigner.resources
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Plugin.XMLFileEditor.xmlFileEditor.resources
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Properties.Resources.resources
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.csproj.GenerateResource.cache
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.GeneratedMSBuildEditorConfig.editorconfig
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.AssemblyInfoInputs.cache
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.AssemblyInfo.cs
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.csproj.CoreCompileInputs.cache
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.dll
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\obj\Debug\net8.0-windows\refint\MapCreator.Engine.dll
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.pdb
+D:\MapCreator_New\MapCreator_facetDesignerInitialized\MapCreator.Engine\obj\Debug\net8.0-windows\ref\MapCreator.Engine.dll
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Lexilla.dll
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Scintilla.dll
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x64\native\Lexilla.dll
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x64\native\Scintilla.dll
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x86\native\Lexilla.dll
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x86\native\Scintilla.dll
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\MapCreator.Engine.deps.json
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\MapCreator.Engine.dll
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\MapCreator.Engine.pdb
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.csproj.AssemblyReference.cache
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Plugin.BuildLogger.buildLogger.resources
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Plugin.FacetDesigner.facetDesigner.resources
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Plugin.XMLFileEditor.xmlFileEditor.resources
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Properties.Resources.resources
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.csproj.GenerateResource.cache
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.GeneratedMSBuildEditorConfig.editorconfig
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.AssemblyInfoInputs.cache
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.AssemblyInfo.cs
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.csproj.CoreCompileInputs.cache
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.dll
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\refint\MapCreator.Engine.dll
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.pdb
+D:\MapCreator_New\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\ref\MapCreator.Engine.dll
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Lexilla.dll
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Scintilla.dll
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x64\native\Lexilla.dll
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x64\native\Scintilla.dll
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x86\native\Lexilla.dll
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x86\native\Scintilla.dll
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\MapCreator.Engine.deps.json
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\MapCreator.Engine.dll
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\MapCreator.Engine.pdb
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.csproj.AssemblyReference.cache
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Plugin.BuildLogger.buildLogger.resources
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Plugin.FacetDesigner.facetDesigner.resources
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Plugin.XMLFileEditor.xmlFileEditor.resources
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Properties.Resources.resources
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.csproj.GenerateResource.cache
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.GeneratedMSBuildEditorConfig.editorconfig
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.AssemblyInfoInputs.cache
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.AssemblyInfo.cs
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.csproj.CoreCompileInputs.cache
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.dll
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\refint\MapCreator.Engine.dll
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.pdb
+D:\uoAvox.studio\Development\Workbenches\Editing Utilities\MapCreator\Current Project Source\MapCreator\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\ref\MapCreator.Engine.dll
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Lexilla.dll
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Scintilla.dll
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x64\native\Lexilla.dll
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x64\native\Scintilla.dll
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x86\native\Lexilla.dll
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\runtimes\win-x86\native\Scintilla.dll
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\MapCreator.Engine.deps.json
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\MapCreator.Engine.dll
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\bin\Debug\net8.0-windows\MapCreator.Engine.pdb
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.csproj.AssemblyReference.cache
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Plugin.BuildLogger.buildLogger.resources
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Plugin.FacetDesigner.facetDesigner.resources
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Plugin.XMLFileEditor.xmlFileEditor.resources
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.Properties.Resources.resources
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.csproj.GenerateResource.cache
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.AssemblyInfoInputs.cache
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.AssemblyInfo.cs
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.csproj.CoreCompileInputs.cache
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.dll
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\refint\MapCreator.Engine.dll
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\MapCreator.Engine.pdb
+C:\Users\aasro\Desktop\.NET10\MapCreator\MapCreator.Engine\obj\Debug\net8.0-windows\ref\MapCreator.Engine.dll
